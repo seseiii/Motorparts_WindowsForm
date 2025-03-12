@@ -53,8 +53,9 @@
             BackgroundImage = Properties.Resources.loadingbg1;
             ClientSize = new Size(1345, 767);
             Controls.Add(btnProceed);
-            FormBorderStyle = FormBorderStyle.SizableToolWindow;
+            FormBorderStyle = FormBorderStyle.Fixed3D;
             Icon = (Icon)resources.GetObject("$this.Icon");
+            MaximizeBox = false;
             Name = "mainPage";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Inxide Decals";

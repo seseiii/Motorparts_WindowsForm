@@ -36,3 +36,4 @@ C:\Users\Prissea.MSI\OneDrive\Documents\GitHub\Motorparts_WindowsForm\Inxide_mot
 C:\Users\Prissea.MSI\OneDrive\Documents\GitHub\Motorparts_WindowsForm\Inxide_motorparts\Inxide_motorparts\obj\Debug\net8.0-windows\Inxide_motorparts.pdb
 C:\Users\Prissea.MSI\OneDrive\Documents\GitHub\Motorparts_WindowsForm\Inxide_motorparts\Inxide_motorparts\obj\Debug\net8.0-windows\Inxide_motorparts.genruntimeconfig.cache
 C:\Users\Prissea.MSI\OneDrive\Documents\GitHub\Motorparts_WindowsForm\Inxide_motorparts\Inxide_motorparts\obj\Debug\net8.0-windows\ref\Inxide_motorparts.dll
+C:\Users\Prissea.MSI\OneDrive\Documents\GitHub\Motorparts_WindowsForm\Inxide_motorparts\Inxide_motorparts\obj\Debug\net8.0-windows\Inxide_motorparts.ForgotPass.resources

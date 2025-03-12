@@ -29,132 +29,157 @@
         private void InitializeComponent()
         {
             components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LoginForm));
             picTime = new System.Windows.Forms.Timer(components);
-            lblLogin = new Label();
             backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
-            lblUser = new Label();
-            lblPass = new Label();
+            pbReturn = new PictureBox();
+            pbbg = new PictureBox();
+            pbImage = new PictureBox();
+            lblLogin = new Label();
+            lblCreateAcc = new Label();
             txtuname = new TextBox();
             txtpass = new TextBox();
-            btnlogin = new Button();
-            lblForgotPass = new Label();
             cbShowPass = new CheckBox();
-            lblCreateAcc = new Label();
-            groupBox1 = new GroupBox();
-            groupBox1.SuspendLayout();
+            btnlogin = new Button();
+            lblUser = new Label();
+            lblPass = new Label();
+            lblForgotPass = new Label();
+            ((System.ComponentModel.ISupportInitialize)pbReturn).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pbbg).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pbImage).BeginInit();
             SuspendLayout();
+            // 
+            // backgroundWorker1
+            // 
+            backgroundWorker1.DoWork += backgroundWorker1_DoWork;
+            // 
+            // pbReturn
+            // 
+            pbReturn.BackColor = Color.Transparent;
+            pbReturn.BackgroundImage = (Image)resources.GetObject("pbReturn.BackgroundImage");
+            pbReturn.Location = new Point(-3, -6);
+            pbReturn.Name = "pbReturn";
+            pbReturn.Size = new Size(106, 86);
+            pbReturn.TabIndex = 16;
+            pbReturn.TabStop = false;
+            pbReturn.Click += pbReturn_Click;
+            // 
+            // pbbg
+            // 
+            pbbg.BackColor = Color.White;
+            pbbg.Location = new Point(131, 127);
+            pbbg.Name = "pbbg";
+            pbbg.Size = new Size(1098, 542);
+            pbbg.TabIndex = 0;
+            pbbg.TabStop = false;
+            // 
+            // pbImage
+            // 
+            pbImage.Location = new Point(134, 127);
+            pbImage.Name = "pbImage";
+            pbImage.Size = new Size(505, 542);
+            pbImage.TabIndex = 26;
+            pbImage.TabStop = false;
             // 
             // lblLogin
             // 
             lblLogin.AutoSize = true;
+            lblLogin.BackColor = Color.White;
             lblLogin.Font = new Font("Consolas", 30F, FontStyle.Bold);
-            lblLogin.Location = new Point(693, 32);
+            lblLogin.Location = new Point(827, 157);
             lblLogin.Name = "lblLogin";
             lblLogin.Size = new Size(195, 70);
-            lblLogin.TabIndex = 1;
+            lblLogin.TabIndex = 17;
             lblLogin.Text = "LOGIN";
             // 
-            // lblUser
+            // lblCreateAcc
             // 
-            lblUser.AutoSize = true;
-            lblUser.Font = new Font("Consolas", 15F);
-            lblUser.Location = new Point(549, 162);
-            lblUser.Name = "lblUser";
-            lblUser.Size = new Size(159, 36);
-            lblUser.TabIndex = 2;
-            lblUser.Text = "Username:";
-            // 
-            // lblPass
-            // 
-            lblPass.AutoSize = true;
-            lblPass.Font = new Font("Consolas", 15F);
-            lblPass.Location = new Point(549, 267);
-            lblPass.Name = "lblPass";
-            lblPass.Size = new Size(159, 36);
-            lblPass.TabIndex = 3;
-            lblPass.Text = "Password:";
+            lblCreateAcc.AutoSize = true;
+            lblCreateAcc.BackColor = Color.White;
+            lblCreateAcc.Font = new Font("Consolas", 10F, FontStyle.Italic | FontStyle.Underline, GraphicsUnit.Point, 0);
+            lblCreateAcc.ForeColor = Color.DimGray;
+            lblCreateAcc.Location = new Point(687, 604);
+            lblCreateAcc.Name = "lblCreateAcc";
+            lblCreateAcc.Size = new Size(197, 23);
+            lblCreateAcc.TabIndex = 25;
+            lblCreateAcc.Text = "Create an Account";
+            lblCreateAcc.Click += lblCreateAcc_Click;
             // 
             // txtuname
             // 
             txtuname.Font = new Font("Consolas", 15F);
-            txtuname.Location = new Point(708, 152);
+            txtuname.Location = new Point(842, 277);
             txtuname.Multiline = true;
             txtuname.Name = "txtuname";
             txtuname.Size = new Size(317, 56);
-            txtuname.TabIndex = 4;
+            txtuname.TabIndex = 20;
             // 
             // txtpass
             // 
             txtpass.Font = new Font("Consolas", 15F);
-            txtpass.Location = new Point(708, 257);
+            txtpass.Location = new Point(842, 382);
             txtpass.Multiline = true;
             txtpass.Name = "txtpass";
             txtpass.Size = new Size(317, 56);
-            txtpass.TabIndex = 5;
+            txtpass.TabIndex = 21;
+            // 
+            // cbShowPass
+            // 
+            cbShowPass.AutoSize = true;
+            cbShowPass.BackColor = Color.White;
+            cbShowPass.Location = new Point(842, 457);
+            cbShowPass.Name = "cbShowPass";
+            cbShowPass.Size = new Size(162, 29);
+            cbShowPass.TabIndex = 24;
+            cbShowPass.Text = "Show Password";
+            cbShowPass.UseVisualStyleBackColor = false;
             // 
             // btnlogin
             // 
             btnlogin.BackColor = Color.Black;
             btnlogin.Font = new Font("Consolas", 20F, FontStyle.Bold);
             btnlogin.ForeColor = SystemColors.ControlLightLight;
-            btnlogin.Location = new Point(549, 392);
+            btnlogin.Location = new Point(683, 517);
             btnlogin.Name = "btnlogin";
             btnlogin.Size = new Size(474, 63);
-            btnlogin.TabIndex = 7;
+            btnlogin.TabIndex = 22;
             btnlogin.Text = "Login";
             btnlogin.UseVisualStyleBackColor = false;
+            // 
+            // lblUser
+            // 
+            lblUser.AutoSize = true;
+            lblUser.BackColor = Color.White;
+            lblUser.Font = new Font("Consolas", 15F);
+            lblUser.Location = new Point(683, 287);
+            lblUser.Name = "lblUser";
+            lblUser.Size = new Size(159, 36);
+            lblUser.TabIndex = 18;
+            lblUser.Text = "Username:";
+            // 
+            // lblPass
+            // 
+            lblPass.AutoSize = true;
+            lblPass.BackColor = Color.White;
+            lblPass.Font = new Font("Consolas", 15F);
+            lblPass.Location = new Point(683, 392);
+            lblPass.Name = "lblPass";
+            lblPass.Size = new Size(159, 36);
+            lblPass.TabIndex = 19;
+            lblPass.Text = "Password:";
             // 
             // lblForgotPass
             // 
             lblForgotPass.AutoSize = true;
+            lblForgotPass.BackColor = Color.White;
             lblForgotPass.Font = new Font("Consolas", 10F, FontStyle.Italic | FontStyle.Underline, GraphicsUnit.Point, 0);
             lblForgotPass.ForeColor = Color.Brown;
-            lblForgotPass.Location = new Point(837, 479);
+            lblForgotPass.Location = new Point(971, 604);
             lblForgotPass.Name = "lblForgotPass";
             lblForgotPass.Size = new Size(186, 23);
-            lblForgotPass.TabIndex = 9;
+            lblForgotPass.TabIndex = 23;
             lblForgotPass.Text = "Forgot Password?";
-            // 
-            // cbShowPass
-            // 
-            cbShowPass.AutoSize = true;
-            cbShowPass.Location = new Point(708, 332);
-            cbShowPass.Name = "cbShowPass";
-            cbShowPass.Size = new Size(162, 29);
-            cbShowPass.TabIndex = 10;
-            cbShowPass.Text = "Show Password";
-            cbShowPass.UseVisualStyleBackColor = true;
-            // 
-            // lblCreateAcc
-            // 
-            lblCreateAcc.AutoSize = true;
-            lblCreateAcc.Font = new Font("Consolas", 10F, FontStyle.Italic | FontStyle.Underline, GraphicsUnit.Point, 0);
-            lblCreateAcc.ForeColor = Color.DimGray;
-            lblCreateAcc.Location = new Point(553, 479);
-            lblCreateAcc.Name = "lblCreateAcc";
-            lblCreateAcc.Size = new Size(197, 23);
-            lblCreateAcc.TabIndex = 11;
-            lblCreateAcc.Text = "Create an Account";
-            lblCreateAcc.Click += label1_Click;
-            // 
-            // groupBox1
-            // 
-            groupBox1.BackColor = Color.White;
-            groupBox1.Controls.Add(lblLogin);
-            groupBox1.Controls.Add(lblCreateAcc);
-            groupBox1.Controls.Add(txtuname);
-            groupBox1.Controls.Add(cbShowPass);
-            groupBox1.Controls.Add(lblUser);
-            groupBox1.Controls.Add(lblForgotPass);
-            groupBox1.Controls.Add(lblPass);
-            groupBox1.Controls.Add(btnlogin);
-            groupBox1.Controls.Add(txtpass);
-            groupBox1.Location = new Point(124, 112);
-            groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(1098, 542);
-            groupBox1.TabIndex = 13;
-            groupBox1.TabStop = false;
-            groupBox1.Enter += groupBox1_Enter;
+            lblForgotPass.Click += lblForgotPass_Click;
             // 
             // LoginForm
             // 
@@ -163,31 +188,47 @@
             BackColor = Color.WhiteSmoke;
             BackgroundImage = Properties.Resources.loginbg4;
             ClientSize = new Size(1345, 767);
-            Controls.Add(groupBox1);
+            Controls.Add(pbImage);
+            Controls.Add(lblLogin);
+            Controls.Add(lblCreateAcc);
+            Controls.Add(txtuname);
+            Controls.Add(txtpass);
+            Controls.Add(cbShowPass);
+            Controls.Add(btnlogin);
+            Controls.Add(lblUser);
+            Controls.Add(lblPass);
+            Controls.Add(lblForgotPass);
+            Controls.Add(pbbg);
+            Controls.Add(pbReturn);
             DoubleBuffered = true;
-            FormBorderStyle = FormBorderStyle.SizableToolWindow;
+            FormBorderStyle = FormBorderStyle.Fixed3D;
+            MaximizeBox = false;
             Name = "LoginForm";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Login";
             FormClosing += LoginForm_FormClosing;
             Load += LoginForm_Load;
-            groupBox1.ResumeLayout(false);
-            groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pbReturn).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pbbg).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pbImage).EndInit();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
         private System.Windows.Forms.Timer picTime;
-        private Label lblLogin;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
-        private Label lblUser;
-        private Label lblPass;
+        private PictureBox pbReturn;
+        private PictureBox pbbg;
+        private PictureBox pbImage;
+        private Label lblLogin;
+        private Label lblCreateAcc;
         private TextBox txtuname;
         private TextBox txtpass;
-        private Button btnlogin;
-        private Label lblForgotPass;
         private CheckBox cbShowPass;
-        private Label lblCreateAcc;
-        private GroupBox groupBox1;
+        private Button btnlogin;
+        private Label lblUser;
+        private Label lblPass;
+        private Label lblForgotPass;
     }
 }

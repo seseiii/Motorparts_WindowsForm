@@ -61,16 +61,35 @@ namespace Inxide_motorparts
 
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void backgroundWorker1_DoWork(object sender, System.ComponentModel.DoWorkEventArgs e)
+        {
+
+        }
+
+        private void lblForgotPass_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            ForgotPass forgotpass = new ForgotPass();
+            forgotpass.Show();
+
+        }
+
+        private void pbReturn_Click(object sender, EventArgs e)
+        {
+            mainPage main = new mainPage();
+            main.Show();
+        }
+
+        private void lblCreateAcc_Click(object sender, EventArgs e)
         {
             this.Hide();
             CreateAccount createAcc = new CreateAccount();
             createAcc.Show();
-        }
-
-        private void groupBox1_Enter(object sender, EventArgs e)
-        {
-
         }
     }
 }

@@ -63,6 +63,26 @@ namespace Inxide_motorparts.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap createAccbg {
+            get {
+                object obj = ResourceManager.GetObject("createAccbg", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap createAccBg2 {
+            get {
+                object obj = ResourceManager.GetObject("createAccBg2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap InxideLogo {
             get {
                 object obj = ResourceManager.GetObject("InxideLogo", resourceCulture);
@@ -156,6 +176,16 @@ namespace Inxide_motorparts.Properties {
         internal static System.Drawing.Bitmap loginPicBorder1 {
             get {
                 object obj = ResourceManager.GetObject("loginPicBorder1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap returnIcon {
+            get {
+                object obj = ResourceManager.GetObject("returnIcon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

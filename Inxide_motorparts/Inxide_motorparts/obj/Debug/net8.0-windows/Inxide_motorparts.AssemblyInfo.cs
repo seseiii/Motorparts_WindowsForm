@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Inxide_motorparts")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5fa4cd30a83288b9b29944520d6f714f69962558")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+65d17a8bd7f4da976c72a360883dff6390907a6b")]
 [assembly: System.Reflection.AssemblyProductAttribute("Inxide_motorparts")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Inxide_motorparts")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
