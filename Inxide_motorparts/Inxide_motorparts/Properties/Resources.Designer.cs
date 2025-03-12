@@ -123,6 +123,26 @@ namespace Inxide_motorparts.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap loginbg3 {
+            get {
+                object obj = ResourceManager.GetObject("loginbg3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap loginbg4 {
+            get {
+                object obj = ResourceManager.GetObject("loginbg4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap loginPicBorder {
             get {
                 object obj = ResourceManager.GetObject("loginPicBorder", resourceCulture);

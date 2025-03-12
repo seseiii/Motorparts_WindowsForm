@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Prissea.MSI\\source\\repos\\Inxide_motorparts\\Inxide_motorparts\\Inxide_motorparts.csproj",
+      "projectUniqueName": "C:\\Users\\Prissea.MSI\\OneDrive\\Documents\\GitHub\\Motorparts_WindowsForm\\Inxide_motorparts\\Inxide_motorparts\\Inxide_motorparts.csproj",
       "projectName": "Inxide_motorparts",
-      "projectPath": "C:\\Users\\Prissea.MSI\\source\\repos\\Inxide_motorparts\\Inxide_motorparts\\Inxide_motorparts.csproj",
+      "projectPath": "C:\\Users\\Prissea.MSI\\OneDrive\\Documents\\GitHub\\Motorparts_WindowsForm\\Inxide_motorparts\\Inxide_motorparts\\Inxide_motorparts.csproj",
       "packagesPath": "C:\\Users\\Prissea.MSI\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Prissea.MSI\\source\\repos\\Inxide_motorparts\\Inxide_motorparts\\obj\\",
+      "outputPath": "C:\\Users\\Prissea.MSI\\OneDrive\\Documents\\GitHub\\Motorparts_WindowsForm\\Inxide_motorparts\\Inxide_motorparts\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

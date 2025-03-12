@@ -39,7 +39,7 @@ namespace Inxide_motorparts
         //ensure na magcloclose pagpininfot ung x sa taas. ps dapat nakaselect to sa properties (FormClosing)
         private void LoginForm_FormClosing(object sender, FormClosingEventArgs e)
         {
-            Application.Exit(); 
+            Application.Exit();
         }
 
         private void ChangeImage(object sender, EventArgs e)
@@ -57,6 +57,18 @@ namespace Inxide_motorparts
         }
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            CreateAccount createAcc = new CreateAccount();
+            createAcc.Show();
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
         {
 
         }
